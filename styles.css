@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: extra-bold;
+}
+
+q {
+    font-style: italic;
+    font-size: 38px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#signUpButton {
+        background-color: #3882F6;
+        border: #F9FAF8;
+        color: white;
+        border-style: solid;
+        height: 60px;
+        padding: 20px 20px;
+        align-self: center;
+        border-radius: 10px;
+        font-weight: bold;
+}
+.blueDiv {
+    background-color: #1F2937;
+    padding: 1%;
+    color: #F9FAF8;
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.topBlueDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.sideList {
+    display: flex;
+    flex-shrink: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.sideL {
+    min-width: 120px;
+}
+
+.midBlueDiv {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.topimage {
+    width: 500px;
+    height: auto;
+}
+
+.leftTextBlue {
+    width: 500px;
+}
+
+
+
+/* white div 1*/
+
+.whiteDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.whiteListItemsContainer {
+    display: flex;
+}
+
+
+.sideLtwo {
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listImg {
+    max-width: 120px;
+    height: auto;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+    
+}
+
+.blackTextHead {
+    margin: 50px;
+}
+
+/* grey div  */
+
+.greyDiv {
+    background-color: #E5E7EB;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textContainerGrey {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+
+/* last white div  */
+.lastWhite {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBox {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    border: 5px #3882F6;
+    background-color: #3882F6;
+    border-radius: 30px;
+    width: 700px;
+    height: 150px;
+    color: white;
+    align-items: center;
+}
+
+#buttontwo {
+    background-color: #3882F6;
+    border: #F9FAF8;
+    color: white;
+    border-style: solid;
+    height: 80px;
+    padding: 20px 20px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+
+
+footer { 
+    background-color: #1F2937;
+    min-height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
